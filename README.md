@@ -1,2 +1,3 @@
-# gfe-react-submissions
-Solutions to Great frontend challenges in react and learn tailwind in the process 
+# GFE React Projects 
+
+This repo will be used to showcase GFE react projects and in the process learn React, Vite , Tailwind.
