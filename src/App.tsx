@@ -3,6 +3,7 @@ import "./App.css";
 import TestimonialCard from "./components/testimonial-card";
 import NotFound from "./components/not-found";
 import BlogCard from "./components/blog-card";
+import ProfileCard from "./components/profile-card";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/blog-card",
     element: <BlogCard />,
+  },
+  {
+    path: "profile-card",
+    element: <ProfileCard />,
   },
 ]);
 
