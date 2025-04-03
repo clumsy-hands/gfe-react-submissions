@@ -16,7 +16,7 @@ export default function ProfileCard() {
           Stack Overflow and ChatGPT developer.
         </p>
 
-        <button className="bg-violet-500 hover:bg-violet-50 text-white py-2 px-4 w-full my-5">
+        <button className="bg-violet-500 hover:bg-violet-50 hover:text-violet-500 text-white py-2 px-4 w-full my-5 cursor-pointer">
           Contact me
         </button>
 
