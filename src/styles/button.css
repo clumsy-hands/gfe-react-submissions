@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Size variants */
+  .button-md {
+    @apply gap-[4px] rounded px-4 py-[10px] text-sm;
+  }
+
+  .button-lg {
+    @apply gap-[6px] rounded px-[18px] py-[10px] text-base;
+  }
+
+  .button-xl {
+    @apply gap-[6px] rounded px-[22px] py-3 text-base;
+  }
+
+  .button-2xl {
+    @apply gap-[10px] rounded px-[26px] py-4 text-lg;
+  }
+
+  .button-icon-2xl {
+    @apply gap-[10px] rounded p-4 text-lg;
+  }
+
+  .button-md-linkColor {
+    @apply gap-[4px] rounded text-sm;
+  }
+
+  .button-lg-linkColor {
+    @apply gap-[6px] rounded text-base;
+  }
+
+  .button-xl-linkColor {
+    @apply gap-[6px] rounded text-base;
+  }
+
+  .button-2xl-linkColor {
+    @apply gap-[10px] rounded text-lg;
+  }
+
+  .button-md-linkGray {
+    @apply gap-[4px] rounded text-sm;
+  }
+
+  .button-lg-linkGray {
+    @apply gap-[6px] rounded text-base;
+  }
+
+  .button-xl-linkGray {
+    @apply gap-[6px] rounded text-base;
+  }
+
+  .button-2xl-linkGray {
+    @apply gap-[10px] rounded text-lg;
+  }
+
+  /* ---- */
+
+  /* Color variants */
+  .button-primary {
+    @apply bg-indigo-700 fill-white text-white shadow-[0_1px_3px_rgba(0,0,0,0.10),0_1px_2px_rgba(0,0,0,0.06)] hover:bg-indigo-800 hover:shadow-[0_1px_3px_rgba(0,0,0,0.10),0_1px_2px_rgba(0,0,0,0.06)] focus:bg-indigo-800 focus:shadow-[0_0px_0px_4px_rgba(68,76,231,0.12)] disabled:cursor-not-allowed disabled:bg-neutral-100 disabled:fill-neutral-400 disabled:text-neutral-400;
+  }
+
+  .button-secondary {
+    @apply border-[0.5px] border-neutral-200 bg-white fill-neutral-900 text-neutral-900 shadow-[0_1px_3px_rgba(0,0,0,0.10),0_1px_2px_rgba(0,0,0,0.06)] hover:border hover:border-neutral-200 hover:bg-neutral-50 hover:shadow-[0_1px_3px_rgba(0,0,0,0.10),0_1px_2px_rgba(0,0,0,0.06)] focus:border focus:border-neutral-200 focus:bg-neutral-50 focus:shadow-[0_0px_0px_4px_rgba(68,76,231,0.12)] disabled:cursor-not-allowed disabled:bg-neutral-100 disabled:fill-neutral-400 disabled:text-neutral-400;
+  }
+
+  .button-tertiary {
+    @apply bg-transparent fill-indigo-700 text-indigo-700 focus:bg-neutral-50 focus:shadow-[0_0px_0px_4px_rgba(68,76,231,0.12)] disabled:cursor-not-allowed disabled:fill-neutral-400 disabled:text-neutral-400;
+  }
+
+  .button-linkColor {
+    @apply bg-transparent fill-indigo-700 text-indigo-700 hover:bg-transparent hover:fill-indigo-800 hover:text-indigo-800 focus:fill-indigo-800 focus:text-indigo-800 focus:shadow-[0_0px_0px_4px_rgba(68,76,231,0.12)] disabled:cursor-not-allowed disabled:fill-neutral-400 disabled:text-neutral-400;
+  }
+
+  .button-linkGray {
+    @apply bg-transparent fill-neutral-600 text-neutral-600 hover:bg-transparent hover:fill-neutral-900 hover:text-neutral-900 focus:text-neutral-900 focus:shadow-[0_0px_0px_4px_rgba(68,76,231,0.12)] disabled:cursor-not-allowed disabled:fill-neutral-400 disabled:text-neutral-400;
+  }
+
+  .button-destructive {
+    @apply bg-red-600 fill-white text-white hover:bg-red-700 focus:bg-red-700 focus:shadow-[0_0px_0px_1px_rgba(217,45,32,1),0_0px_0px_4px_rgba(217,45,32,0.12)] disabled:cursor-not-allowed disabled:bg-neutral-400;
+  }
+}

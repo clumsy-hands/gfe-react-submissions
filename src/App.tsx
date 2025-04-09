@@ -4,6 +4,7 @@ import TestimonialCard from "./components/testimonial-card";
 import NotFound from "./components/not-found";
 import BlogCard from "./components/blog-card";
 import ProfileCard from "./components/profile-card";
+import ButtonPlayground from "./components/button";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,12 @@ const router = createBrowserRouter([
     element: <BlogCard />,
   },
   {
-    path: "profile-card",
+    path: "/profile-card",
     element: <ProfileCard />,
+  },
+  {
+    path: "/buttons",
+    element: <ButtonPlayground />,
   },
 ]);
 
