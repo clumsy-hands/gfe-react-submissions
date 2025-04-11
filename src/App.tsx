@@ -5,6 +5,7 @@ import NotFound from "./components/not-found";
 import BlogCard from "./components/blog-card";
 import ProfileCard from "./components/profile-card";
 import ButtonPlayground from "./components/button";
+import BadgePlayground from "./components/badge";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/buttons",
     element: <ButtonPlayground />,
+  },
+  {
+    path: "/badges",
+    element: <BadgePlayground />,
   },
 ]);
 
